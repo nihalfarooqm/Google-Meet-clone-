@@ -1,0 +1,181 @@
+.head-div{
+  /*position: fixed;*/
+  /*width: 1520px;*/
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+.logo-link{
+  text-decoration: none;
+  color: #5f6368;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 22px;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding-left: 12px;
+}
+.time-date{
+  color: #5f6368;
+  font-family: Google Sans,Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding-right: 12px;
+}
+.icon{
+  padding: 12px;
+  color: #5f6368;
+}
+.main-container{
+  width: 100%/*1536px*/;
+  height: 618px/*412px*/;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.h1-st{
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 2.8125rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 3.25rem;
+  color: var(#1f1f1f);
+  padding-bottom: .5rem;
+  margin: 0;
+  width: 560px;
+  height: 112px;
+}
+.description{
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.75rem;
+  color: var(--gm3-sys-color-on-surface-variant, #444746);
+  max-width: 30rem;
+  padding-bottom: 2rem;
+}
+.enter-meeting{
+  width: 560px;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: first;
+}
+.new-meeting{
+  width: 146.54px;
+  height: 48px;
+  background-color: #1a73e8;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.code{
+  width: 275.2px;
+  height: 48px;
+  background-color: white;
+  margin-right: 8px;
+  border-radius: 17.5px;
+  border: 1px solid #747775;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.join{
+  width: 397.46px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+}
+.button{
+  width: 64px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #aaaaaa;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.text-in{
+  border: 0px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+.border{
+  margin-top: 16px;
+  border-bottom: 1px solid #747775;
+}
+.learn-more{
+  padding-top: 18px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 12px;
+  color: #444746;
+}
+.scroll-dots{
+  width: 687.6px;
+  height: 19.2px;
+  margin-top: 8px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+.navigation{
+  padding: 12px;
+  margin-bottom: 82.5px;
+}
+.img-box{
+  width: 362px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.img{
+  width: 362px;
+  height: 362px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-img-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.h2-st{
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: .75rem;
+}
+.hint{
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.25rem;
+  font-size: .875rem;
+  letter-spacing: .0142857143em;
+  font-weight: 400;
+  flex-grow: 1;
+  margin-top: 8px;
+}
